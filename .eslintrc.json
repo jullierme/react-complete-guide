@@ -1,12 +1,13 @@
 {
     "parser": "babel-eslint",
     "env": {
-      "jest": true,
-      "browser": true
+        "jest": true,
+        "browser": true
     },
-    "extends": ["standard"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
     "rules": {
-      "space-before-function-paren": "off",
-      "comma-dangle": "off"
+        "space-before-function-paren": "off",
+        "comma-dangle": "off",
+        "react/jsx-uses-react": 1
     }
-  }
+}

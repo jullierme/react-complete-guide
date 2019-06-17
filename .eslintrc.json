@@ -2,12 +2,18 @@
     "parser": "babel-eslint",
     "env": {
         "jest": true,
-        "browser": true
+        "browser": true,
+        "node": true
     },
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "rules": {
         "space-before-function-paren": "off",
         "comma-dangle": "off",
         "react/jsx-uses-react": 1
+    },
+    "settings": {
+        "react": {
+            "version": "999.999.999"
+        }
     }
 }

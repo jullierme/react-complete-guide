@@ -4,6 +4,7 @@ WORKDIR '/app'
 
 COPY package.json .
 RUN npm i
+RUN npm rebuild node-sass
 
 COPY . .
 
